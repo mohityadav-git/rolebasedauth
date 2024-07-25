@@ -1,7 +1,7 @@
 // db.js
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/roleBasedAuth', {
+mongoose.connect('mongodb+srv://itsforgithub:passwordAtlas@cluster0.dyovyrd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
